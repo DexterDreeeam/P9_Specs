@@ -1,6 +1,7 @@
 # Pavilion Nine
+=========
 
-- ## What is Pavilion Nine or P9
+## What is Pavilion Nine or P9
 [P9 Project](https://github.com/DexterDreeeam/P9) is a software project, ultimate goal of P9 is building a grand electronic game.
 
 ## Programming Design Principles
