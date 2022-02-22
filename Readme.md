@@ -1,0 +1,26 @@
+# Pavilion Nine Project Specs
+
+## What is Pavilion Nine or P9
+[P9 Project](https://github.com/DexterDreeeam/P9) is a software project, ultimate goal of P9 is building a grand electronic game.
+
+## Programming Design Principles
+* C++ based.
+* Uniform coding style.
+* Outside-In design.
+* High Quality along with readable-code maintainability, but limited performance.
+* Modulization, not layered structure.
+* Support most platforms rather than all, with affordable effort.
+* Most core code is open source.
+* Profit doesn't impact UX.
+
+## Modules in P9
+### [Sdk](https://github.com/DexterDreeeam/P9/tree/main/Sdk)
+  A OS level abstract layer which is all others basic Sdk/Software-Development-Kit.
+  <small>
+    'Sdk' supports cross OS, provides all OS object and standard algo container. All other module should on 'Sdk' as basic library. Using OS header or standard library in other library should be intolerable.
+    'Sdk' include nearly all std container, OS objects like event and thread, reference object, json formatter and even standard exception structure.
+  </small>
+### [Gpx](https://github.com/DexterDreeeam/P9/tree/main/Gpx)
+  Graphics interface, enhanced for game development. Vulkan is the only interface 'Gpx' supported. 'Gpx' depends on 'Sdk'.
+### [Ge](https://github.com/DexterDreeeam/P9/tree/main/Ge)
+  'Ge' is short for P9 Game Engine, which is designed for game developer. 'Ge' depends on 'Gpx'.
